@@ -1,0 +1,31 @@
+ import java.io.*;
+import java.util.Scanner;
+
+
+class Main {
+  public static void main(String[] args) {
+    try {
+
+      File inFile = new File("input.txt");
+      Scanner keyboard = new Scanner(inFile);
+      int num = keyboard.nextInt();
+      System.out.println("Number of items per line = " + num);
+    
+      for (int i = 0; i < num; i++) {
+     int num1 =  keyboard.nextInt(); 
+      System.out.println(num1);
+      }
+      
+      for (int i = 0; i < num; i++) {
+    double num2 =  keyboard.nextDouble(); 
+      System.out.println( num2);
+    
+     }
+  }
+    catch (Exception e) {
+      System.out.println("Something went wrong!");
+      System.out.println(e);
+    }
+    }
+}
+    
