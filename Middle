@@ -21,3 +21,13 @@ System.out.println("Middle Letter");
         System.out.println( s.go( "catsand" ) ) ;   
     }
 }
+
+public class Middle
+{
+
+   public static String go( String a )
+    {
+        
+        return a.substring( a.length()/2, (a.length()/2)+1);
+    }
+}
