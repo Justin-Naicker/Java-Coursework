@@ -1,2 +1,2 @@
 # Java-Coursework
-My coursework written in Java!
+My Coursework assignments and work written in Java.
