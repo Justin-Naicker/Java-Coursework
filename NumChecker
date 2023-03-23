@@ -1,0 +1,84 @@
+
+ 
+  
+// Lab Chapter 6 Set 1, Lab 5
+// Main.java and NumChecker.java
+
+// FINISH ME
+// Name: Your full name goes here
+
+public class Main // NumCheckerRunner
+{
+    public static void main( String args[] )
+    {
+        System.out.println("NumChecker");
+        System.out.println(); // prints a blank line
+        System.out.println(); // prints a blank line
+
+        // FINISH ME
+        // Put your full name on it!
+        System.out.println("Chapter 6 - Set 1 Lab 5  Written by Justin Naicker");
+        System.out.println(); // prints a blank line
+        System.out.println(); // prints a blank line
+
+        
+        // test cases
+        
+        // FINISH ME
+        // class NumChecker has a static method check()
+        // Since it is static, it is already loaded into RAM memory,
+        // so you can call it with the name of the class.
+        // Example: NumChecker.check(???)
+      
+      System.out.println( NumChecker.check( 200 ) );
+      System.out.println( NumChecker.check( 100 ) );
+      System.out.println( NumChecker.check( 25 ) );
+      System.out.println( NumChecker.check( 88 ) );
+      System.out.println( NumChecker.check(99 ) );
+      System.out.println( NumChecker.check( 7 ) );
+      System.out.println( NumChecker.check( 8 ) );
+      System.out.println( NumChecker.check( 10 ) );
+  
+  
+ }
+ 
+}
+
+// Lab Chapter 6 Set 1, Lab 5
+// Main.java and NumChecker.java
+
+// FINISH ME
+// Name: Your full name goes here
+
+
+public class NumChecker
+{
+    // Your check method should receive a number and evaluate it.  If the number 
+    // is evenly divisible by 5, return 1.  If the number is evenly divisible by 4, 
+    // return 2.  If the number is evenly divisible by 3, return 3.    
+    // Return 4 for all other cases. 
+    
+    public static int check( int x )
+    {
+        // FINISH ME
+
+      if (x%5 == 0)
+      {
+        return 1;
+      }
+      if (x%4 == 0)
+      {
+        return 2;
+      }
+      if (x%3 == 0)
+      {
+        return 3;
+      }
+        return 4;
+      }
+        
+    
+  
+    
+} // end of class NumChecker
+
