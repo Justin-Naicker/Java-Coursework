@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+    StarsAndStripes object = new StarsAndStripes();
+    object.printASmallBox();
+    object.printTwoBlankLines();
+    object.printALargeBox();
+    
+  }
+}
